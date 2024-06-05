@@ -7,7 +7,7 @@ const HotelGallery = () => {
     <Container>
       <div
         id="rooms"
-        className="flex flex-col gap-5 md:mx-12 mx-5 md:my-10 my-5"
+        className="flex flex-col gap-5 md:mx-12 mx-1 md:my-10 my-5"
       >
         <MainHeading className={"text-3xl text-center my-5"}>
           Gallery
