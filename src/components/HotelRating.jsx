@@ -6,7 +6,7 @@ import { Blockquote } from "flowbite-react";
 const HotelRating = () => {
   return (
     <Container>
-      <div className="mx-12 my-10 flex flex-col gap-10">
+      <div className="md:mx-12 mx-5 md:my-10 my-5 flex flex-col md:gap-10 gap-5">
         <div className="flex md:flex-row flex-col justify-between gap-5">
           <MainHeading className={"text-3xl"}>What Our Guests Say</MainHeading>
           <div className=" text-nowrap flex w-1/2 gap-20">

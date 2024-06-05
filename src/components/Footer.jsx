@@ -6,7 +6,7 @@ import SubHeading from "./partials/SubHeading";
 const Footer = () => {
   return (
     <Container>
-      <div className="grid grid-cols-3 mx-12 my-10">
+      <div className="grid md:grid-cols-3 grid-cols-2 md:mx-12 mx-5 md:my-10 my-5">
         <div className="flex flex-col gap-5">
           <MainHeading className={"text-xl"}>Hotel</MainHeading>
           <div className="flex gap-5">

@@ -5,7 +5,7 @@ import MainHeading from "./partials/MainHeading";
 const HotelAddress = () => {
   return (
     <Container>
-      <div className="mx-14 sm:mx-5 my-5 flex flex-col gap-5">
+      <div className="md:mx-14 mx-5 sm:mx-5 my-5 flex flex-col gap-5">
         <div className="flex justify-between items-center">
           <MainHeading className={"text-3xl"}>How to be reach?</MainHeading>
           <a

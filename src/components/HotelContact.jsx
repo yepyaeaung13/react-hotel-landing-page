@@ -5,7 +5,7 @@ import MainHeading from "./partials/MainHeading";
 const HotelContact = () => {
   return (
     <Container>
-      <div className="mx-12 my-10 flex flex-col gap-5">
+      <div className="md:mx-12 mx-5 md:my-10 my-5 flex flex-col gap-5">
         <MainHeading className={"text-2xl"}>Hotel Information</MainHeading>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
           <div className="md:col-span-1 flex items-start gap-2">
@@ -22,7 +22,7 @@ const HotelContact = () => {
               adipiscing senectus turpis non due to COVID-19.
             </p>
           </div>
-          <div className="md:col-span-2 grid grid-cols-3 gap-5">
+          <div className="md:col-span-2 grid md:grid-cols-3 grid-cols-2 gap-5">
             <div className="flex items-start gap-2">
               <div className="flex pt-1 items-center">
                 <svg

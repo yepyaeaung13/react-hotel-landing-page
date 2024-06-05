@@ -8,7 +8,7 @@ const HotelFacilities = () => {
     <Container>
       <div
         id="facilities"
-        className="mx-14 my-5 flex flex-col gap-10 items-center"
+        className="md:mx-14 mx-5 my-5 flex flex-col md:gap-10 gap-5 items-center"
       >
         <MainHeading className={"text-3xl"}>Facilities</MainHeading>
         <div className="text-nowrap grid md:grid-cols-4 grid-cols-2 gap-20">
