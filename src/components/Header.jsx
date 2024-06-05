@@ -12,7 +12,7 @@ const Header = () => {
     >
       <div className="">
         <div className="flex justify-between items-start py-2 px-2">
-          <MainHeading className={"text-white pt-1.5"}> HOTEL</MainHeading>
+          <MainHeading className={"text-white pt-1"}> HOTEL</MainHeading>
           <div className="flex md:flex-row flex-col items-end gap-3">
             <Nvabar />
             <div>
