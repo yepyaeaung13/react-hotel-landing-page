@@ -5,14 +5,14 @@ import MainHeading from "./partials/MainHeading";
 const HotelContact = () => {
   return (
     <Container>
-      <div className="md:mx-12 mx-1 md:my-10 my-2 flex flex-col gap-5">
+      <div className="md:mx-12 mx-1 md:my-10 my-2 flex flex-col gap-5 px-2">
         <MainHeading className={"text-2xl"}>Hotel Information</MainHeading>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
           <div className="col-span-1 flex items-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              className="w-6 pt-2"
+              className="md:w-6 w-8 pt-2"
             >
               {/*!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.*/}
               <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />

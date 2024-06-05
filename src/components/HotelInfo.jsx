@@ -9,19 +9,25 @@ const HotelInfo = () => {
       <div className="grid md:grid-cols-4 grid-cols-2 gap-5 py-5">
         <div className="flex flex-col items-center">
           <MainHeading className={"md:text-3xl text-2xl"}>10</MainHeading>
-          <SubHeading>YEARS OF SERVICE</SubHeading>
+          <SubHeading className={"md:text-xl text-md"}>
+            YEARS OF SERVICE
+          </SubHeading>
         </div>
         <div className="flex flex-col items-center">
           <MainHeading className={"md:text-3xl text-2xl"}>320</MainHeading>
-          <SubHeading>SQUARE METRES AREA</SubHeading>
+          <SubHeading className={"md:text-xl text-md"}>
+            SQUARE METRES AREA
+          </SubHeading>
         </div>
         <div className="flex flex-col items-center">
           <MainHeading className={"md:text-3xl text-2xl"}>40</MainHeading>
-          <SubHeading>NICE ROOMS</SubHeading>
+          <SubHeading className={"md:text-xl text-md"}>NICE ROOMS</SubHeading>
         </div>
         <div className="flex flex-col items-center">
           <MainHeading className={"md:text-3xl text-2xl"}>4567</MainHeading>
-          <SubHeading>HAPPY VISITORS</SubHeading>
+          <SubHeading className={"md:text-xl text-md"}>
+            HAPPY VISITORS
+          </SubHeading>
         </div>
       </div>
     </Container>
