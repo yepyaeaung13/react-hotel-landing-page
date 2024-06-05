@@ -7,7 +7,7 @@ const AreaAttraction = () => {
   return (
     <Container>
       <div className="w-full flex md:flex-row flex-col md:gap-10 gap-5 justify-between md:p-10">
-        <div className="md:w-2/3 w-full h-96">
+        <div className="md:w-2/3 w-full md:h-96 h-80">
           <Carousel>
             <img
               src="/shwedagon-view.jpg"
