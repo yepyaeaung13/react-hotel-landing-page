@@ -8,7 +8,7 @@ const HotelContact = () => {
       <div className="md:mx-12 mx-1 md:my-10 my-2 flex flex-col gap-5">
         <MainHeading className={"text-2xl"}>Hotel Information</MainHeading>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-5">
-          <div className="md:col-span-1 flex items-start gap-2">
+          <div className="col-span-1 flex items-start gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -22,8 +22,8 @@ const HotelContact = () => {
               adipiscing senectus turpis non due to COVID-19.
             </p>
           </div>
-          <div className="md:col-span-1 flex flex-wrap text-nowrap gap-5">
-            <div className="col-span-1 flex items-start gap-2">
+          <div className="md:col-span-2 grid md:grid-cols-3 grid-cols-2 text-nowrap gap-5">
+            <div className="flex items-start gap-2">
               <div className="flex pt-1 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const HotelContact = () => {
                 <p>04:00 PM</p>
               </div>
             </div>
-            <div className="col-span-1 flex items-start gap-2">
+            <div className="flex items-start gap-2">
               <div className="flex pt-1 items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -11,7 +11,7 @@ const HotelFacilities = () => {
         className="md:mx-14 mx-5 my-5 flex flex-col md:gap-10 gap-5 items-center"
       >
         <MainHeading className={"text-3xl"}>Facilities</MainHeading>
-        <div className="text-nowrap grid md:grid-cols-4 grid-cols-2 gap-20">
+        <div className="text-nowrap grid md:grid-cols-4 grid-cols-2 items-end gap-10">
           <div className="flex flex-col items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"

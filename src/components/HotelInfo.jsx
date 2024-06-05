@@ -6,7 +6,7 @@ import MainHeading from "./partials/MainHeading";
 const HotelInfo = () => {
   return (
     <Container>
-      <div className="flex flex-wrap justify-around py-5">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-5 py-5">
         <div className="flex flex-col items-center">
           <MainHeading className={"text-3xl"}>10</MainHeading>
           <SubHeading>YEARS OF SERVICE</SubHeading>
