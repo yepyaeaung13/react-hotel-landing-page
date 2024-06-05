@@ -6,8 +6,8 @@ import SubHeading from "./partials/SubHeading";
 const Footer = () => {
   return (
     <Container>
-      <div className="grid md:grid-cols-3 grid-cols-2 md:mx-12 mx-5 md:my-10 my-5">
-        <div className="flex flex-col gap-5">
+      <div className="grid md:grid-cols-3 grid-cols-2 md:mx-12 mx-1 md:my-10 my-2">
+        <div className="md:col-span-1 col-span-1 flex flex-col gap-5">
           <MainHeading className={"text-xl"}>Hotel</MainHeading>
           <div className="flex gap-5">
             <svg
@@ -36,7 +36,7 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="md:col-span-1 col-span-1 flex flex-col gap-3">
           <SubHeading>Customer Help</SubHeading>
           <div className="flex flex-col">
             <a href="">Customer Support</a>
@@ -44,7 +44,7 @@ const Footer = () => {
             <a href="">Sitemap</a>
           </div>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="md:col-span-1 col-span-2 flex flex-col gap-3">
           <SubHeading>Contact</SubHeading>
           <div>
             <p>1234 Market Street,</p>

@@ -7,13 +7,13 @@ const HotelBooking = () => {
   return (
     <div
       id="booking"
-      className="md:my-10 my-5 h-[400px] bg-no-repeat bg-cover text-white bg-slate-600/50 bg-blend-multiply flex flex-col gap-5 justify-center items-center"
+      className="md:my-10 my-3 h-[400px] bg-no-repeat bg-cover text-white bg-slate-600/50 bg-blend-multiply flex flex-col gap-5 justify-center items-center"
       style={{ backgroundImage: "url(/bedroom2.jpg)" }}
     >
       <SubHeading className={"text-lg"}>HOTEL RESERVATION</SubHeading>
-      <MainHeading className={"text-2xl"}>Book Directly With Us</MainHeading>
+      <MainHeading className={"text-xl"}>Book Directly With Us</MainHeading>
       <p>CALL US NOW:</p>
-      <MainHeading className={"md:text-5xl text-2xl flex md:gap-5 gap-2"}>
+      <MainHeading className={"md:text-5xl text-xl flex md:gap-5 gap-2"}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
