@@ -5,12 +5,14 @@ import MainHeading from "./partials/MainHeading";
 const HotelAddress = () => {
   return (
     <Container>
-      <div className="md:mx-14 mx-5 sm:mx-5 my-5 flex flex-col gap-5">
+      <div className="md:mx-14 mx-1 my-5 flex flex-col gap-5">
         <div className="flex justify-between items-center">
-          <MainHeading className={"text-3xl"}>How to be reach?</MainHeading>
+          <MainHeading className={"md:text-3xl text-2xl"}>
+            How to be reach?
+          </MainHeading>
           <a
             href="#home"
-            className="flex items-center gap-1 border-2 border-purple-700 text-purple-800 rounded-md px-8 py-2"
+            className="flex text-nowrap items-center gap-1 border-2 border-purple-700 text-purple-800 rounded-md md:px-8 px-2 md:py-2 py-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

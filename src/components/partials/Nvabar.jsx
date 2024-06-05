@@ -2,7 +2,7 @@ import React from "react";
 
 const Nvabar = () => {
   return (
-    <nav className="flex gap-10 sm:gap-3 text-white">
+    <nav className="flex md:gap-10 gap-2 text-white">
       <a
         href="#home"
         className="hover:text-slate-950 rounded-md px-2 py-1 duration-200"

@@ -6,7 +6,7 @@ import { Carousel } from "flowbite-react";
 const AreaAttraction = () => {
   return (
     <Container>
-      <div className="w-full flex md:flex-row flex-col md:gap-10 gap-5 justify-between md:p-10 p-5">
+      <div className="w-full flex md:flex-row flex-col md:gap-10 gap-5 justify-between md:p-10">
         <div className="md:w-2/3 w-full h-96">
           <Carousel>
             <img

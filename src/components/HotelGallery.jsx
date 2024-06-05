@@ -5,11 +5,8 @@ import MainHeading from "./partials/MainHeading";
 const HotelGallery = () => {
   return (
     <Container>
-      <div
-        id="rooms"
-        className="flex flex-col gap-5 md:mx-12 mx-1 md:my-10 my-5"
-      >
-        <MainHeading className={"text-3xl text-center my-5"}>
+      <div id="rooms" className="flex flex-col gap-5 md:mx-12 md:my-10 my-5">
+        <MainHeading className={"md:text-3xl text-2xl text-center my-5"}>
           Gallery
         </MainHeading>
         <div className="grid grid-cols-2 w-full gap-2">

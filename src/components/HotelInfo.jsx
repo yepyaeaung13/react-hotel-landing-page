@@ -8,19 +8,19 @@ const HotelInfo = () => {
     <Container>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-5 py-5">
         <div className="flex flex-col items-center">
-          <MainHeading className={"text-3xl"}>10</MainHeading>
+          <MainHeading className={"md:text-3xl text-2xl"}>10</MainHeading>
           <SubHeading>YEARS OF SERVICE</SubHeading>
         </div>
         <div className="flex flex-col items-center">
-          <MainHeading className={"text-3xl"}>320</MainHeading>
+          <MainHeading className={"md:text-3xl text-2xl"}>320</MainHeading>
           <SubHeading>SQUARE METRES AREA</SubHeading>
         </div>
         <div className="flex flex-col items-center">
-          <MainHeading className={"text-3xl"}>40</MainHeading>
+          <MainHeading className={"md:text-3xl text-2xl"}>40</MainHeading>
           <SubHeading>NICE ROOMS</SubHeading>
         </div>
         <div className="flex flex-col items-center">
-          <MainHeading className={"text-3xl"}>4567</MainHeading>
+          <MainHeading className={"md:text-3xl text-2xl"}>4567</MainHeading>
           <SubHeading>HAPPY VISITORS</SubHeading>
         </div>
       </div>

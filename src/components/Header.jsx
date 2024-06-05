@@ -7,7 +7,7 @@ import SubHeading from "./partials/SubHeading";
 const Header = () => {
   return (
     <div
-      className="w-full h-[100vh] px-5 bg-no-repeat bg-cover bg-bottom bg-slate-600/50 bg-blend-multiply"
+      className="w-full h-[100vh] bg-no-repeat bg-cover bg-bottom bg-slate-600/50 bg-blend-multiply"
       style={{ backgroundImage: "url(/hotel-cover.jpg)" }}
     >
       <div className="">

@@ -20,7 +20,7 @@ const HotelBooking = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="md:w-10 w-8"
+          className="md:w-10 w-5"
         >
           <path
             strokeLinecap="round"

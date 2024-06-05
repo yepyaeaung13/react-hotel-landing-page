@@ -8,9 +8,9 @@ const HotelFacilities = () => {
     <Container>
       <div
         id="facilities"
-        className="md:mx-14 mx-5 my-5 flex flex-col md:gap-10 gap-5 items-center"
+        className="md:mx-14 mx-2 my-5 flex flex-col md:gap-10 gap-5 items-center"
       >
-        <MainHeading className={"text-3xl"}>Facilities</MainHeading>
+        <MainHeading className={"md:text-3xl text-2xl"}>Facilities</MainHeading>
         <div className="text-nowrap grid md:grid-cols-4 grid-cols-2 items-end gap-10">
           <div className="flex flex-col items-center">
             <svg
